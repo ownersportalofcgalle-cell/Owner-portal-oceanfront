@@ -1,17 +1,23 @@
-# Oceanfront Condominiums Galle - Owner Portal Update 02
+# Oceanfront Condominiums Galle – Owner Portal
 
-This version adds the requested owner-resource structure:
+Static website (GitHub Pages) giving owners access to:
 
-- Separate Council 1, Council 2, Council 3 and Council 4 sections
-- Standard council meeting folder naming guidance: CM 1 - Month, CM 2 - Month, etc.
-- Council meeting folder contents: Agenda, Minutes, Accounts, Condo Manager Report
-- AGM folder contents: Council Report, Audited Accounts, Resolutions, Agenda, Minutes, Approved Budget
-- Handbook section with Planned Amended House Rules 2026 and Owner Handbook
-- Monthly Financial Accounts section
-- Constitution & By-laws section split into Current and Planned Amendments
-- Renters section
-- Announcements section
-- Contact details section
+- Council records by term (Councils 1–4)
+- Owner Handbook and proposed amended House Rules
+- Constitution & By-laws (in force and proposed amendments)
+- Notices to Owners
+- Management Office contact details
 
-## Upload to GitHub
-Upload all files from this folder to the root of your existing GitHub repository and replace the old files.
+Documents are held in Google Drive; the site links to the relevant folders.
+
+## Update 03
+- Removed the Monthly Financial Accounts and Renters sections
+- Revised all wording to a formal, consistent style
+- Added an introduction and quick-access links to the hero
+- Council 4 shown first as the current Council
+- Announcements replaced with a dedicated "Notices to Owners" section
+- Click-to-call telephone numbers, search-engine `noindex` tag and footer usage notice
+
+## Publishing
+Replace `index.html`, `styles.css` and `README.md` in the root of the repository.
+Images, `logo.png`, `favicon.svg` and `script.js` are unchanged.
