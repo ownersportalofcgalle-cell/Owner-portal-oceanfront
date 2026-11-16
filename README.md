@@ -18,6 +18,17 @@ Documents are held in Google Drive; the site links to the relevant folders.
 - Announcements replaced with a dedicated "Notices to Owners" section
 - Click-to-call telephone numbers, search-engine `noindex` tag and footer usage notice
 
+## Update 04
+- New `portal-data.js` settings file for routine updates (no HTML editing needed):
+  notices (auto-expire), "last updated" dates, direct document links,
+  Council 4 office-bearers and office hours. Blank entries stay hidden.
+- New Frequently Asked Questions section
+- "&" used in headings and labels
+
+## Routine updates
+Edit `portal-data.js` on GitHub (pencil icon → edit → Commit changes).
+Instructions and examples are written inside the file.
+
 ## Publishing
-Replace `index.html`, `styles.css` and `README.md` in the root of the repository.
-Images, `logo.png`, `favicon.svg` and `script.js` are unchanged.
+Upload `index.html`, `styles.css`, `script.js`, `portal-data.js` and `README.md` to the root of the repository.
+Images, `logo.png` and `favicon.svg` are unchanged.
